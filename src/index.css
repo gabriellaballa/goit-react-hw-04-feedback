@@ -1,6 +1,10 @@
 @import-normalize; /* bring in normalize.css styles */
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(133, 65, 65);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -8,7 +12,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.feedback {
+  background-color: rgb(174, 127, 127);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

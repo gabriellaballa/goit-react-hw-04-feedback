@@ -1,0 +1,12 @@
+.option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.statbtn {
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  width: 80px;
+}
